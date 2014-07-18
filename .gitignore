@@ -15,3 +15,5 @@ greenhouse/target/
 .settings/
 greenhouse/.classpath
 showcase-01-basic-config/.classpath
+showcase-02-database-common/.classpath
+showcase-03-swagger/.classpath

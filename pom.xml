@@ -40,7 +40,8 @@
   </properties>
   <modules>
   	<module>showcase-01-basic-config</module>
-  	<module>greenhouse</module>
+  	<module>showcase-02-database-common</module>
+  	<module>showcase-03-swagger</module>
   </modules>
   
   <build>
