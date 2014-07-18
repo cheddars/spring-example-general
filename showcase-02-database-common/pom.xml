@@ -9,5 +9,5 @@
   <artifactId>showcase-02-database-common</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>01-basic-config</name>
+  <name>02-database-common</name>
 </project>

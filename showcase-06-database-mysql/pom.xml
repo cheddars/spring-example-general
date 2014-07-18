@@ -6,15 +6,8 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.spring.showcase</groupId>
-  <artifactId>showcase-03-swagger</artifactId>
+  <artifactId>showcase-06-database-mysql</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>03-swagger</name>
-  <dependencies>
-  	<dependency>
-  		<groupId>com.wordnik</groupId>
-  		<artifactId>wordnik-java-client</artifactId>
-  		<version>1.0.0</version>
-  	</dependency>
-  </dependencies>
+  <name>06-database-mysql</name>
 </project>

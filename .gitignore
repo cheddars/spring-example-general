@@ -17,3 +17,8 @@ greenhouse/.classpath
 showcase-01-basic-config/.classpath
 showcase-02-database-common/.classpath
 showcase-03-swagger/.classpath
+showcase-05-web-contentnegotiation/.classpath
+showcase-06-database-mysql/.classpath
+showcase-07-testing-integrated-w-h2db/.classpath
+showcase-08-testing-integrated-w-jmeter/.classpath
+showcase-04-webmvc/.classpath

@@ -42,16 +42,20 @@
   	<module>showcase-01-basic-config</module>
   	<module>showcase-02-database-common</module>
   	<module>showcase-03-swagger</module>
+  	<module>showcase-04-webmvc</module>
+  	<module>showcase-05-web-contentnegotiation</module>
+  	<module>showcase-06-database-mysql</module>
+  	<module>showcase-07-testing-integrated-w-h2db</module>
+  	<module>showcase-08-testing-integrated-w-jmeter</module>
   </modules>
   
   <build>
     <plugins>
-
-    <plugin>
-    	<groupId>org.mortbay.jetty</groupId>
-    	<artifactId>jetty-maven-plugin</artifactId>
-    	<version>8.1.15.v20140411</version>
-    </plugin>
+	    <plugin>
+	    	<groupId>org.mortbay.jetty</groupId>
+	    	<artifactId>jetty-maven-plugin</artifactId>
+	    	<version>8.1.15.v20140411</version>
+	    </plugin>
     </plugins>
   </build>  
 </project>
