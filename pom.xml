@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.spring.showcase</groupId>
+  <artifactId>spring-showcase</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>spring-showcase</name>
+  <description>spring-showcase</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-webmvc</artifactId>
+  		<version>${springframework.version}</version>
+  		<exclusions>
+  			<exclusion>
+  				<artifactId>commons-logging</artifactId>
+  				<groupId>commons-logging</groupId>
+  			</exclusion>
+  		</exclusions>
+  	</dependency>
+  	<dependency>
+  		<groupId>ch.qos.logback</groupId>
+  		<artifactId>logback-classic</artifactId>
+  		<version>1.1.2</version>
+  	</dependency>
+       <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>jcl-over-slf4j</artifactId>
+          <version>1.7.6</version>
+          <scope>runtime</scope>
+       </dependency>
+       <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+          <version>1.7.6</version>
+       </dependency>	
+  </dependencies>
+  <properties>
+  	<springframework.version>3.2.9.RELEASE</springframework.version>
+  </properties>
+  <modules>
+  	<module>showcase-01-basic-config</module>
+  	<module>greenhouse</module>
+  </modules>
+  
+  <build>
+    <plugins>
+
+    <plugin>
+    	<groupId>org.mortbay.jetty</groupId>
+    	<artifactId>jetty-maven-plugin</artifactId>
+    	<version>8.1.15.v20140411</version>
+    </plugin>
+    </plugins>
+  </build>  
+</project>
