@@ -22,3 +22,11 @@ showcase-06-database-mysql/.classpath
 showcase-07-testing-integrated-w-h2db/.classpath
 showcase-08-testing-integrated-w-jmeter/.classpath
 showcase-04-webmvc/.classpath
+showcase-01-basic-config/target/
+showcase-02-database-common/target/
+showcase-03-swagger/target/
+showcase-04-webmvc/target/
+showcase-05-web-contentnegotiation/target/
+showcase-06-database-mysql/target/
+showcase-07-testing-integrated-w-h2db/target/
+showcase-08-testing-integrated-w-jmeter/target/
